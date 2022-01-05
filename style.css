@@ -1,0 +1,15 @@
+* {border:1px solid red ;}
+
+h1 {color:cadetblue;
+padding: 80px;}
+
+p {color:darkcyan}
+
+.rogers {color:firebrick}
+
+.rogers-pic {width: 400px;
+margin: 20px;}
+
+a {color:pink ;
+    text-decoration: none;
+ }

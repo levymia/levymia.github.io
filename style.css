@@ -1,15 +1,51 @@
-* {border:1px solid red ;}
+body{
+   background-color: black;
+    background-image: url('jasmin-causor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 
-h1 {color:cadetblue;
-padding: 80px;}
-
-p {color:darkcyan}
-
-.rogers {color:firebrick}
-
-.rogers-pic {width: 400px;
-margin: 20px;}
-
-a {color:pink ;
+}
+a {
+    color: rgb(233, 233, 105);
     text-decoration: none;
- }
+    border-bottom: 2px solid 
+    rgb(233, 233, 105);
+}
+
+a:hover {
+   color:rgb(236, 56, 245);
+   border-bottom: rgb(236, 56, 245);
+
+}
+
+.neonsign{
+    width: 500px;
+}
+
+.inspire {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #000000
+}
+
+.button {
+    background-color:violet;
+    padding: 10px;
+    color: #000000;
+    border:none;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: rgb(255, 200, 190);
+
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    border: 2px solid white;
+
+}

@@ -1,0 +1,33 @@
+svg * {
+    transform-box: fill-box;
+}
+
+#letter-v {
+    fill: cornflowerblue;
+}
+
+#svg-fun path{
+    fill: darkolivegreen;
+}
+
+#svg-fun path:hover{
+    fill: rgb(133, 55, 140);
+}
+
+#svg-fun #letter-e {
+    transition: 300ms;
+    fill: cornflowerblue;
+}
+
+#svg-fun #letter-e:hover {
+fill: darkgoldenrod;
+}
+
+#letter-l, #letter-l2, #letter-l3 {
+    transition: 300ms;
+}
+
+#letter-l:hover, #letter-l2:hover, #letter-l3:hover {
+    transform-origin: center center;
+    transform: rotate(15deg);
+}

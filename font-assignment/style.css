@@ -1,0 +1,39 @@
+/* 
+font-family: 'Arimo', sans-serif;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Rokkitt', serif;
+ */
+
+ body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+ }
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+    display: inline;
+}
+
+ h3 {
+    font-family: 'Rokkitt', serif;
+ }
+
+p {
+    display: inline;
+}
+
+ .highlight {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 32px;
+    color: blue;
+ }
+
+ .bigger {
+     font-size: 60px;
+     writing-mode: vertical-rl;
+ }
+
+ .wrapper {
+     width: 70%;
+     margin: 80px auto;
+ }

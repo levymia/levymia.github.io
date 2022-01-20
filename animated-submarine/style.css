@@ -1,0 +1,77 @@
+body {
+    background:rgb(23, 47, 91);
+    margin: 0%;
+}
+
+
+.submarine {
+    width: 500px;
+    animation-name: move-left;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 100px;
+    right: -100px;
+    transform: translateX(100vw)
+}
+@keyframes move-left {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-120vw);
+    }
+}
+
+#sub {
+    width: 100%;
+}
+
+#sub .cls-1 {
+    fill: #15283a;
+}
+
+#sub .cls-2 {
+    fill: #fff;
+    animation-name: color-range;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-range {
+    0% {
+        fill: rgb(255, 255, 255);
+    }
+    25% {
+        fill: rgb(255, 255, 255);
+    }
+    50% {
+        fill: rgb(143, 143, 143);
+    }
+    75% {
+        fill: rgb(255, 255, 255);
+    }
+    100% {
+        fill: rgb(143, 143, 143);
+    }
+}
+
+/* @keyframes color-range {
+    0% {
+        fill: rgb(224, 128, 57);
+    }
+    25% {
+        fill: rgb(233, 20, 208);
+    }
+    50% {
+        fill: rgb(118, 20, 238);
+    }
+    75% {
+        fill: rgb(7, 180, 248);
+    }
+    100% {
+        fill: rgb(113, 245, 5);
+    }
+}

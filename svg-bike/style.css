@@ -18,11 +18,7 @@ body {
     animation: bike 1s ease-in-out infinite alternate;
     transform-origin: bottom;
 }
-#hair {
-    animation: hat 1s ease-in-out infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
-}
+
 
 @keyframes wheel{
     from {
@@ -39,14 +35,5 @@ body {
     }
     to {
         transform: rotateX(20deg);
-    }
-}
-
-@keyframes hair {
-    from {
-        transform: translateY(0%) rotateZ(0deg)
-    }
-    to{
-        transform: translateY(40%) rotateZ(20deg)
     }
 }

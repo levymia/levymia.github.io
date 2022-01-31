@@ -1,0 +1,33 @@
+* {
+    margin: 100px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+#hi-podner {
+    animation: podner 5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#message {
+    animation: message 6s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes podner {
+    0% {transform: translate(0, 0px);}
+    50% {transform: translate(0, 15px);}
+    100% {transform: translate(0, -0px);}
+}
+
+@keyframes message {
+    0% {transform: skewY(0deg);}
+    50% {transform: skewY(5deg);}
+    100% {transform: skewY(0deg);}
+}

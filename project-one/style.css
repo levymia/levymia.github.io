@@ -20,6 +20,28 @@ body {
     transform-box: fill-box;
 }
 
+#paper-heart {
+    width: 500px;
+    animation-name: move-left;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    bottom: 100px;
+    right: -100px;
+    transform: translateX(100vw)
+}
+
+#hearts-background {
+    width: 500px;
+    animation-name: move-down;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    bottom: 100px;
+    right: -100px;
+    transform: translateX(100vw)
+}
+
 @keyframes podner {
     0% {transform: translate(0, 0px);}
     50% {transform: translate(0, 15px);}
@@ -30,4 +52,22 @@ body {
     0% {transform: skewY(0deg);}
     50% {transform: skewY(5deg);}
     100% {transform: skewY(0deg);}
+}
+
+@keyframes move-left {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-0vw);
+    }
+}
+
+@keyframes move-down {
+    0% {
+        transform: translateY(100vw);
+    }
+    100% {
+        transform: translateY(-0vw);
+    }
 }

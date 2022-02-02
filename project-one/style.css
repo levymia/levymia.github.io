@@ -6,6 +6,7 @@
 
 body {
     text-align: center;
+    overflow: hidden;
 }
 
 #hi-podner {
@@ -26,8 +27,8 @@ body {
     animation-duration: 10s;
     animation-fill-mode: forwards;
     position: absolute;
-    bottom: 100px;
-    right: -100px;
+    bottom: 100vw;
+    right: -100vw;
     transform: translateX(100vw)
 }
 

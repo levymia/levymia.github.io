@@ -13,10 +13,6 @@ svg {
     width: 150vh;
 }
 
-.container {
-
-}
-
 #hi-podner {
     animation: podner 5s infinite linear;
     transform-origin: center;

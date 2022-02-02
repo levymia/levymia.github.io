@@ -9,6 +9,11 @@ body {
     overflow: hidden;
 }
 
+svg {  
+    overflow:visible;
+    width: 100vh;
+}
+
 #hi-podner {
     animation: podner 5s infinite linear;
     transform-origin: center;

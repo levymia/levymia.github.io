@@ -1,5 +1,4 @@
 * {
-    margin: 100px;
     padding: 0px ;
     box-sizing: border-box;
 }
@@ -10,8 +9,12 @@ body {
 }
 
 svg {  
-    overflow:visible;
-    width: 100vh;
+    overflow: visible;
+    width: 150vh;
+}
+
+.container {
+
 }
 
 #hi-podner {
@@ -31,9 +34,6 @@ svg {
     animation-name: move-left;
     animation-duration: 10s;
     animation-fill-mode: forwards;
-    position: absolute;
-    bottom: 100vw;
-    right: -100vw;
     transform: translateX(100vw)
 }
 
@@ -42,9 +42,6 @@ svg {
     animation-name: move-down;
     animation-duration: 10s;
     animation-fill-mode: forwards;
-    position: absolute;
-    bottom: 100px;
-    right: -100px;
     transform: translateX(100vw)
 }
 

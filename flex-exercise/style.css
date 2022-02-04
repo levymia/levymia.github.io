@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(253, 255, 241);
+    font-family: 'Red Hat Mono', monospace;
+  }
+  a { color: navy;}
+  a:hover {
+    color: crimson;
+  }
+  img {
+    width: 100%;
+  }
+  .parent-flex {
+    display: flex;
+    border: 8px solid red;
+    margin: 60px;
+    background: white;
+  }
+  .parent-flex div {
+    margin: 10px;
+  }
+  
+  h1, h2 {
+    color: red;
+    text-align: center;
+  }
+  .flex-left {
+    flex: 20%;
+  }
+  .flex-center {
+    flex: 40%;
+    padding: 0 40px;
+  }
+  .flex-right {
+    flex: 40%;
+  }

@@ -1,7 +1,18 @@
-.one {
-    width: 300px;
+* {
+    padding: 0px ;
+    box-sizing: border-box;
 }
 
-.two {
-    width: 200px;
+body {
+    text-align: center;
+    overflow: hidden;
+}
+
+.profile-pic-one {
+    width: 100px;
+}
+
+.profile-pic-two {
+    max-width:100%;
+    height:auto;
 }

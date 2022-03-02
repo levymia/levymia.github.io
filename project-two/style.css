@@ -7,6 +7,26 @@ html {
   margin: auto;
 }
 
+
+/* 
+font-family: 'Work Sans', sans-serif;
+weight 200 extra light
+weight 300 light  
+weight 500 medium
+weight 500 mdium italics
+*/
+
+body {
+  font-family:'Work Sans';
+  font-weight: 500;
+  font-style: italic;
+}
+
+h1 {
+  font-style: normal;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,10 +48,6 @@ li {
 .landing {
     text-align: center;
     padding: 100px;
-}
-
-.h1 {
-  color: blueviolet;
 }
 
 .img {

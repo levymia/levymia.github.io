@@ -8,8 +8,9 @@ html {
 }
 
 .landing h1 {
-  height: 90vh;
-  padding: 80px;
+  height: 100vh;
+  padding: 110px;
+  margin-top: 50px;
 }
 
 
@@ -31,11 +32,16 @@ h1 {
   font-style: normal;
 }
 
+p {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
   }
@@ -47,12 +53,14 @@ li {
 }
 
 nav a {
-  color: black ;
+  color: rgb(133, 133, 133) ;
   text-decoration: none;
+  font-style: normal;
+  font-weight: 200;
 }
 
 nav a:hover {
-  color: rgb(133, 133, 133) ;
+  color: black ;
 }
 
 .text {
@@ -62,10 +70,11 @@ nav a:hover {
 
 .landing {
     text-align: center;
+    font-size: 50px;
     padding: 100px;
 }
 
-.img {
+img {
     width: 100%;
 }
 
@@ -111,4 +120,29 @@ nav a:hover {
 .flex-center img {
     padding-left: 20;
     padding-right: 20px;
+}
+
+figcaption {
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  font-size: small;
+  padding-top: 10px;
+}
+
+#spring {
+  background-color: blueviolet;
+  padding: none;
+  margin: none;
+}
+
+h1 {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+h1 {
+  opacity: 1;
+  transform: translate(0, 0);
 }

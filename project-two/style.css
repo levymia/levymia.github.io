@@ -14,6 +14,8 @@ html {
 }
 .title {
   font-weight: bold;
+  color: black;
+  font-size: larger;
 }
 /* 
 font-family: 'Work Sans', sans-serif;
@@ -142,12 +144,6 @@ figcaption {
   padding-top: 10px;
 }
 
-#spring {
-  background-color: blueviolet;
-  padding: none;
-  margin: none;
-}
-
 h1 {
   opacity: 0;
   transform: translate(0, 10vh);
@@ -158,3 +154,28 @@ h1 {
   opacity: 1;
   transform: translate(0, 0);
 }
+
+#spring {
+  background-color: rgb(255, 255, 236);
+  padding: none;
+  margin: none;
+}
+
+#summer {
+  background-color: rgb(236, 255, 237);;
+  padding: none;
+  margin: none;
+}
+
+#fall {
+  background-color: rgb(255, 243, 236);;
+  padding: none;
+  margin: none;
+}
+
+#winter {
+  background-color: rgb(236, 244, 255);;
+  padding: none;
+  margin: none;
+}
+
